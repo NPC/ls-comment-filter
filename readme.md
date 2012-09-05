@@ -5,6 +5,9 @@ Comment Filter plugin for <a href="http://livestreetcms.com">LiveStreet CMS</a>.
 
 Plugin originally developed for <a href="http://www.mmozg.net/">MMOzgoved</a> project.
 
+<br>
+
+<hr>
 
 Фильтр Комментариев
 ===================
