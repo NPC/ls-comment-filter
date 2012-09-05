@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Comment Filter</lang>
+		<lang name="russian">Фильтр Комментариев</lang>
+	</name>
+	<author>
+		<lang name="default">Anton Maslo</lang>
+		<lang name="russian">Антон Масло</lang>
+	</author>
+	<homepage>http://amaslo.com</homepage>
+	<version>1.0.0</version>
+	<requires>
+		<livestreet>1.0</livestreet>
+		<plugins>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Comment filtering by rating.</lang>
+		<lang name="russian">Фильтрация комментариев по рейтингу.</lang>
+	</description>
+</plugin>
