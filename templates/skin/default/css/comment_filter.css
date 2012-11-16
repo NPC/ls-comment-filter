@@ -56,13 +56,10 @@
 	cursor: pointer;
 	text-align: center;
 	font-size: 8px;		color: white;
-	/*color: #707070;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3); */
 }
 
 .jscslider_tracker:hover {
 	background-color: #28B736;
-	/*color: #505050;*/
 }
 
 .comment.hidden {
