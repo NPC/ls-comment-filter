@@ -11,7 +11,8 @@
  * Русский языковой файл плагина
  */
 return array(
-	//'plugin_unique_key' => 'надпись',
+	'control_hint' => 'Фильтр комментариев',
+	'comment_hidden_hint' => 'Комментарий ниже заданного рейтинга, <a href="#" class="show-hidden-comment link-dotted">показать</a>?'
 );
 
 ?>

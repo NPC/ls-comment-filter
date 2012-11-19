@@ -16,7 +16,7 @@ var jscsc = 0;
 var jscsm = false;
 var jscsid = 0;
 
-$(function() {
+function initCommentFilter() {
 	// filter slider
 	$(document).mouseup(function() { jscsm = false; });
 	
@@ -97,7 +97,7 @@ $(function() {
 	$('#comment_slider').change(function() {
 	    setRatingFilter($(this).val());
 	});
-});
+}
 
 function jscs_hit(j, y) {
 	min = j.data('min');
@@ -147,6 +147,6 @@ function hideComment(comment) {
     if(!(comment.hasClass('hidden'))) {
         comment
         	.addClass('hidden')
-            .append('<div class="comment-hidden-hint">Комментарий ниже заданного рейтинга, <a href="#" class="show-hidden-comment link-dotted">показать</a>?</div>');
+            .append('<div class="comment-hidden-hint">' + ls.lang.get('plugin.commentfilter.comment_hidden_hint') + '</div>');
     }
 }
