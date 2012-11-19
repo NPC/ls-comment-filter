@@ -7,7 +7,6 @@
 
 <script>
 	$(function() {
-		console.log({lang_load name='plugin.commentfilter.comment_hidden_hint'});
 		ls.lang.load({lang_load name='plugin.commentfilter.comment_hidden_hint'});
 		initCommentFilter();
 	});
