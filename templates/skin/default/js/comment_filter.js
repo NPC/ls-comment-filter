@@ -25,7 +25,10 @@ function initCommentFilter() {
 		
 		c = $(this).attr('class').split(/\s+/);
 		cs = new Array();
-		for(i in c) if(c[i].substr(0, 10)=="jscslider_") cs.push(c[i]);
+		for(i in c) 
+			if(typeof c[i] === 'string' && c[i].substr(0, 10)=="jscslider_") 
+				cs.push(c[i]);
+			
 		cs = cs.join(" ");
 		
 		htm = '<div class="jscslider_up slider_btn">+</div>'
